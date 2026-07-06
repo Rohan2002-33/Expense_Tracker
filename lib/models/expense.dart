@@ -8,7 +8,7 @@ class Expense {
   Expense(this.title, this.amount, this.category);
 
   String display() {
-    return '$title\t- ৳${amount.toStringAsFixed(2)} - $category';
+    return '$title\t- ${amount.toCurrency()} - $category';
   }
 }
 
