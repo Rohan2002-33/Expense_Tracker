@@ -1,3 +1,5 @@
+import '../extensions.dart';
+
 class Expense {
   final String title;
   final double amount;
